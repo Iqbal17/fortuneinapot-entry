@@ -8,9 +8,9 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-golden-heron-44-fortun
 
 ## The fortune
 
-> You will outgrow this pot and move to a grander home, and your keeper will tell everyone it was your idea.
+> You will outgrow this pot by spring, and your keeper will tell the neighbours you picked the new one yourself.
 
-106 characters, one line.
+110 characters, one line.
 
 ## How it runs
 

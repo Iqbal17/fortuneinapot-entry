@@ -64,13 +64,78 @@ this plant in this window. "a grander home" replaces the flat "bigger pot"
 and keeps the pot as the plant's home without saying the word twice. The
 keeper punch is untouched: the plant gets the credit, the keeper does the
 bragging, and everybody in the line is happy.
+
+REVISION PASS (24 Nov 2026)
+
+Honest critique of the chosen line against the judge's criteria, in order:
+
+1. It IS a fortune about the plant's own future ("You will outgrow this
+   pot") and it IS anchored to this plant in this window ("this pot").
+   Criterion 1 is solid.
+2. The joke lands — the plant gets the credit for the keeper's decision —
+   but it arrives only in the tail; the middle of the line carries no
+   humour at all.
+3. It is kind and warm, no doom, no withering, no mockery. Criterion 3 is
+   solid.
+4. The weak spot is the middle clause: "and move to a grander home".
+   A plant does not move itself — the keeper does the moving — so the
+   agency muddles exactly where the line should be cleanest. "A grander
+   home" is also a little fancy, a euphemism where the line wants a
+   concrete image. And the line has TWO "and"s, so it reads as a list
+   (outgrow AND move AND keeper tells) rather than one prediction with
+   one turn.
+5. "Tell everyone" is the vaguest phrase in the line. Everyone is nobody
+   in particular; a proud keeper does not tell everyone, they tell the
+   neighbours.
+
+FRESH ALTERNATIVES WEIGHED IN THIS PASS:
+
+F. "You will outgrow this pot by spring, and your keeper will tell the
+   neighbours you picked the new one yourself." (110 chars)
+   "By spring" is a fortune's time marker — it gives the prediction a
+   cadence the current line lacks — and it replaces the muddled "move to
+   a grander home" clause entirely, deleting the second "and" so the line
+   has one clean turn. "Tell the neighbours" names the exact audience a
+   proud keeper brags to. "You picked the new one yourself" keeps the
+   same joke (the plant gets the credit) but gives the plant the active
+   choice, which is sharper and warmer than "it was your idea".
+
+G. "Soon this pot will be too small for your ambitions, and your keeper
+   will carry you to a bigger one like royalty." (112 chars)
+   "Like royalty" is a lovely image and the line is warm, but "your
+   ambitions" is abstract, "Soon" is weaker fortune cadence than "You
+   will", and the ending is a compliment rather than a turn — the
+   keeper-credit joke in the current line has a stronger twist. Loses to F.
+
+H. "You will outgrow this pot, and your keeper will blame the sunlight
+   for taking all the credit." (84 chars)
+   "Blame the sunlight" is a fresh joke, but it is confusing on first
+   read — who is taking credit from whom? — and it drops the keeper's
+   pride, which is the warmest part of the line. Cut.
+
+DECISION: F replaces the chosen line. The joke is the same joke, but the
+agency is now clean (the plant grows, the keeper tells), the prediction
+has a time marker ("by spring"), the audience is concrete ("the
+neighbours"), and the plant's credit is an active choice ("picked the new
+one yourself") rather than a passive idea. "The new one" needs no
+antecedent beyond the pot the plant just outgrew.
+
+BEFORE / AFTER:
+- Before: "You will outgrow this pot and move to a grander home, and your
+  keeper will tell everyone it was your idea." (106 chars)
+- After:  "You will outgrow this pot by spring, and your keeper will tell
+  the neighbours you picked the new one yourself." (110 chars)
+
+Read-back verification was already present in main() (writes, reads back,
+asserts byte-for-byte the intended line inside the 1-120 gate) — left
+untouched.
 """
 
 import os
 
 LINE = (
-    "You will outgrow this pot and move to a grander home, "
-    "and your keeper will tell everyone it was your idea."
+    "You will outgrow this pot by spring, "
+    "and your keeper will tell the neighbours you picked the new one yourself."
 )
 
 
